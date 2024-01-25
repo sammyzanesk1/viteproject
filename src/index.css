@@ -1,0 +1,159 @@
+/*
+ul {
+  list-style: none; /
+  line-height: 1em;
+  font-size: 2vw;
+} 
+*/
+
+/* 
+ul li:before {
+  content: "";
+  line-height: 1em;
+  width: 0.4em;
+  height: 0.4em;
+  background-color: aqua;
+  float: left;
+  margin: 0.25em 0.25em 0;
+  border-radius: 50%;
+}  
+*/
+
+/*...personal solution*/
+/*
+.nav-items {
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.nav-container {
+  display: flex; 
+}
+
+.nav-items {
+  flex: 1;
+  background-color: #fff;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end; 
+}
+
+
+li {
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.img-container {
+  flex: 1; 
+  padding: 19px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+*/
+
+/* video solution*/
+
+/*
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px;
+  border-bottom-style: inset;
+  background-color: floralwhite;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+
+.nav-items > li {
+  padding: 20px;
+  font-weight: bold;
+  font-family: Cambria;
+}
+
+.nav-logo {
+  width: 70px;
+  border-radius: 40px;
+}
+
+.main-title {
+  font-family: Cambria;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.ordered-list > li {
+  margin-top: 12px;
+  font-size: large;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  min-height: 80vh;
+  background-color: blue;
+  flex-shrink: auto;
+}
+complete d footer later
+*/
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px;
+  border-bottom-style: inset;
+  background-color: floralwhite;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+
+.nav-items > li {
+  padding: 20px;
+  font-weight: bold;
+  font-family: Cambria;
+}
+
+.nav-logo {
+  width: 70px;
+  border-radius: 40px;
+}
+
+.maincontent {
+  flex: 40%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
